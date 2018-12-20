@@ -1,0 +1,59 @@
+/* 首页和发现页的头部导航 */
+.headNav{
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    background:#000;
+    color:#fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.headNav .left{
+    width: 2.15rem;
+    margin-left: .35rem;
+    height: 100%;
+}
+.headNav .left a{
+    font-size: .3rem;
+    color:#fff;
+}
+.headNav .middle{
+    width: 2.5rem;
+    height: 0.88rem;
+    line-height: .88rem;
+    display: flex;
+    padding-left: .45rem;
+    padding-top: 0.17rem;
+}
+.headNav .middle #logo{
+    display: inline-block;
+    width: 1.36rem;
+    height: 0.56rem;
+}
+.headNav .middle span{
+    font-size: 0.2rem;
+    margin-top: -0.1rem;
+}
+.headNav .right{
+    width: 2.3rem;
+    height: 0.88rem;
+    text-align: right;
+}
+.headNav .right a{
+    font-size: 0.4rem;
+    color:#fff;
+    padding: 0 0.3rem;
+}
+.headNav .right a:nth-child(1){
+    padding-right: 0.2rem;
+}
+.headNav .right a:nth-child(1){
+    padding-left: 0.2rem;
+}
+
+
+
+
+
+
