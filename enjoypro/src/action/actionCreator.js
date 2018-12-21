@@ -11,4 +11,22 @@ export const getData_action = (dispatch)=>{
             })
         })
     })
+<<<<<<< HEAD
 }
+=======
+}
+export const getOrder_action = (dispatch)=>{
+    dispatch({
+        type:"GET_ORDER",
+        payload:new Promise(resolve=>{
+            let url = "https://api.ricebook.com/hub/home/v1/mini_app/homepage.json"
+            fetch(url)
+            .then((res)=>res.json())
+            .then((data)=>{
+                console.log(data)
+                resolve(data)
+            })
+        })
+    })
+}
+>>>>>>> syx

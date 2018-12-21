@@ -7,9 +7,15 @@ export default (state=defaultState,action)=>{
     let newState = JSON.parse(JSON.stringify(state))
     switch(action.type){
         case "GET_LIST_FULFILLED":
+<<<<<<< HEAD
         
           newState.dataList = action.payload;
            return newState;
+=======
+        newState.dataList = action.payload; 
+        return newState;
+        default : break;
+>>>>>>> syx
     }
     return state;
 }
