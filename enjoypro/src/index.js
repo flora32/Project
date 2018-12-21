@@ -4,7 +4,9 @@ import App from './App';
 import "./common/css/reset.css";
 import "./common/css/font/iconfont.css";
 import "./common/css/footer.css";
-import "./common/js/flexble";
+import "./common/js/flexble.js";
+import "./common/css/navBar.css";
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
