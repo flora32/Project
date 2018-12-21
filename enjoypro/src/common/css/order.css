@@ -1,0 +1,66 @@
+.pro{
+    height: 1200px;
+    overflow: scroll;
+}
+.prolist{
+    padding: .2rem;
+}
+.prolist li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .2rem;
+}
+.prolist li .pro_left img{
+    width: 200px;
+    height: 200px;
+}
+.prolist li .pro_right{
+    padding-left: .2rem;
+}
+.prolist li .pro_right h3{
+    font-weight: normal;
+    display: -webkit-box;
+    /*! autoprefixer: off */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    
+}
+.prolist li .pro_right .right_dec{
+    color: #92969c;
+}
+.prolist li .pro_right .right_con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .1rem;
+}
+.prolist li .pro_right .right_con span b{
+    display: block;    
+}
+.prolist li .pro_right .right_con span .huiyuan i{
+    font-size: 24px;
+    color: #fa4f00;
+    font-style: normal;
+}
+.prolist li .pro_right .right_con span .huiyuan{
+    font-size: 35px;
+    color: #fa4f00;
+}
+.prolist li .pro_right .right_con span .shichang{
+    color: #92969c;
+}
+.prolist li .pro_right .right_con span i{
+    font-style: normal
+}
+.prolist li .pro_right .right_con a{
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #fba700;
+    font-size: 24px;
+}
+

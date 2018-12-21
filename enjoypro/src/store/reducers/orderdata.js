@@ -1,13 +1,13 @@
 const defaultState = {
-    dataList:[]
+    orderlist:[]
 }
 
 export default (state=defaultState,action)=>{
-    console.log(action.type)
+    console.log(action.payload)
     let newState = JSON.parse(JSON.stringify(state))
     switch(action.type){
-        case "GET_LIST_FULFILLED":
-        newState.dataList = action.payload; 
+        case "GET_ORDER_FULFILLED":
+        newState.orderlist = action.payload; 
         return newState;
         default : break;
     }
