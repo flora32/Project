@@ -11,9 +11,6 @@ export const getData_action = (dispatch)=>{
             })
         })
     })
-<<<<<<< HEAD
-}
-=======
 }
 export const getOrder_action = (dispatch)=>{
     dispatch({
@@ -29,4 +26,3 @@ export const getOrder_action = (dispatch)=>{
         })
     })
 }
->>>>>>> syx
