@@ -4,6 +4,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
+    background: #fff;
     box-shadow: 0 -0.266667vw 0.533333vw rgba(0,0,0,.1)
 }
 

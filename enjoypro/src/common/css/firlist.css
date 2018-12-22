@@ -1,0 +1,41 @@
+.firList{
+    padding:0 0.4rem;
+    height: 1160px;
+    overflow: scroll;
+}
+.firList .list{
+    width: 6.7rem;
+    padding-top:0.6rem;
+    line-height: 1; 
+}
+.firList .list h3{
+    font-size: 42px;
+    font-weight: bolder;
+    color: #2c3038;
+}
+.firList .list .tit{
+    font-size: 24px;
+    color: #ff3939;
+    margin-top: 10px;
+}
+.list_dat li{
+    padding: 40px 0;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+.list_dat li img{
+    display: block;
+    width: 6.7rem;
+    height: 4.46rem;
+}
+.list_dat li div{
+    margin-top: 30px;
+    font-size: 0.32rem;
+    color: #000;
+}
+.list_dat li span{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 0.22rem;
+    color: #92969c;
+}
