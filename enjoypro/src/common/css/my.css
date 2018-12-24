@@ -1,0 +1,63 @@
+.login_all{
+   padding: 100px 60px 0;
+}
+.login img{
+    margin: 0 auto;
+    width: 326px;
+}
+.login_input{
+    margin-top: 80px;
+}
+.login_input .phone input{
+    width: 100%;
+    font-size: 32px;
+    color: #2c3038;
+    border-radius: 8px;
+    border: 2px solid #bdc0c5;
+    padding: 23px 20px;
+}
+.totp{
+    margin-top: 30px;
+}
+.off{
+    width: 365px; 
+    font-size: 32px;
+    color: #2c3038;
+    border-radius: 8px;
+    border: 2px solid #bdc0c5;
+    padding: 23px 50px 23px 20px;
+
+}
+.mode{
+    margin-left: 30px;
+    display: inline-block;
+    width: 232px;
+    border: 2px solid #bdc0c5;
+    text-align: center;
+    padding: 22px 30px;
+    vertical-align: 2px;
+    color: #2c3038;
+}
+.go{
+    display: block;
+    width: 100%;
+    padding: 23px 0;
+    background-color: #1a1a1a;
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #e5e5e5;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.tips{
+        margin-top: 190px;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    color: #92969c;
+    margin-bottom: 55px;
+}
+.tips a{
+    text-decoration: underline;
+}
